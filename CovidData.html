@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid19 Data</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CovidData.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5">Covid 19 Live Data</h1>
+        <br><br>
+        <input id = "country" type="text"  placeholder="Enter country name">
+        <button class="btn btn-primary" onclick="getCountryData()">Search</button>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Confirmed</th>
+                    <th>Total Cases</th>
+                    <th>Total Deaths</th>
+                    <th>New Deaths</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="data"></tr>
+            </tbody>
+        </table>
+        <br>
+        <button onclick="refreshData()" class="btn btn-danger btn-block">
+            Refresh Data
+        </button>
+    </div>
+    <script type="text/javascript" src="CovidData.js"></script>
+</body>
+</html>
