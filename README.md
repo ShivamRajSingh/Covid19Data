@@ -7,6 +7,15 @@ LiveLink:
 
 https://covid19data-9517e.web.app/
 
+Input:
+
+![](input.JPG.jpg)
+
+Output:
+
+![](output.JPG.jpg)
+
+
 Novelty:
 
 1. Build using HTML, CSS and JavaScript.
